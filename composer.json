@@ -1,0 +1,25 @@
+{
+    "name": "kdabek/http-client-example",
+    "description": "Example use of kdabek/http-client library",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Krystian Dąbek",
+            "email": "krystian.dk@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Kdabek\\HttpClientExample\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.0",
+        "kdabek/http-client": "^0.2.0",
+        "laminas/laminas-diactoros": "^2.6",
+        "monolog/monolog": "^2.3"
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev"
+}
